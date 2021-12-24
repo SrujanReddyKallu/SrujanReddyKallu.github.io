@@ -12,11 +12,12 @@ font-display: rgb(20, 173, 7);
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(247, 153, 77) 0%, rgba(247, 247, 248, 0.329) 71%, rgba(53, 199, 228, 0.788) 95%);
     border-radius: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: elianto
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 35px;
   }
+ 
   .cta {
     position: relative;
     margin: 5;
