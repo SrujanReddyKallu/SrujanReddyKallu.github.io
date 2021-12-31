@@ -1,0 +1,36 @@
+
+/* @import '~mdb-ui-kit/css/mdb.min.css'; */
+@media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+  .io{
+      background-color: rgba(76, 88, 64, 0.637);
+  }
+  .io-0{
+    background-color: #798b869c;
+  }
+  .gt{
+    color: blue;
+  }
+  .imgewr{
+    
+      background-image:url("https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/banners/home-full-width/investors-section/faq-banner.jpg");
+      min-height : 100%;
+      min-width : 100%;
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+      
+     }
+  /* .imgs:hover{
+    border: dotted;
+  } */
+  
+  .t{
+    background-color: rgb(207, 188, 207);
+  }
+  .fo{
+    background-color: rgb(223, 218, 215);
+  }
