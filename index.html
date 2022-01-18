@@ -10,8 +10,8 @@
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
   src = "https:cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="codewithsarva.css" />
-  
+  <link href="codepen.css" rel="stylesheet">
+  <link rel="stylesheet" href="weath.css" />
 </head>
 <body>
   
@@ -42,13 +42,12 @@
     <div class="container">
       <div class="row text-center m-4">
         <div class="col-md">
-          
-          <div class="card text-dark mx-7 ar" style="background:rgba(4, 2, 27, 0.438);width: 18rem;"> 
+          <div class="card text-center  mx-7 ar" style="background:rgba(4, 2, 27, 0.438);width: 18rem;"> 
 
             <!-- <div class="h1 mb-3">
                                 <i class="bi bi-google"></i>
                             </div> -->
-                            <div class="search">
+                            <!-- <div class="search">
                               <input type="text" class="search-bar" placeholder="Search">
                               <button  onclick="getvalue()"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
                                   width="1.5em" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +55,16 @@
                                     d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
                                   </path>
                                 </svg></button>
+                            </div> -->
+                            <div class="text-center">
+                            <div class="container">
+                              <input type="text" placeholder="Search..." class="search-ba" id="se">
+                              <div class="search"></div>
                             </div>
+                            </div>
+                          </div>
+                            <br>
+                            <img id="myimg">
             <!-- <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
               <img src="https://source.unsplash.com/1600x900/?weather" class="img-fluid" />
               <a href="#!">
@@ -64,19 +72,19 @@
               </a>
             </div> -->
 
-            <hr>
+            
             <div class="card-body text-center">
             <!-- <h3 class="card-title mb-3 ">Google</h3> -->
             <!-- <p class="card-text"> -->
               <main>
-                <!-- <section class="location">
-                  <div class="city">Texas, US</div>
+                <section class="location">
+                  <div class="city" id="1">Texas, US</div>
                   <div class="date">Thursday 17 January 2022</div>
-                </section> -->
+                </section>
                 <div class="current">
-                  <!-- <div class="temp">-10<span>°c</span></div> -->
-                  <div class="weather" id="123">Sunny</div>
-                  <!-- <div class="hi-low">13°c / 16°c</div> -->
+                  <div class="temp">-10<span>°c</span></div>
+                  <div class="weather" id="2">Sunny</div>
+                  <div class="hi-low"  id="332">13°c / 16°c</div>
                 </div>
               </main>
             
@@ -89,6 +97,6 @@
         </div>
 </section>
 <!-- </div> -->
-<script src="codewithsarva.js"></script>
+<script src="weath.js"></script>
 </body>
 </html>
