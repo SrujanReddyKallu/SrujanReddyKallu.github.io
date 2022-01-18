@@ -349,7 +349,7 @@ body {
   height: 100vh;
   margin: 0;
   background: rgb(30, 30, 56);
-  background-image: url('ttps://source.unsplash.com/1600x900/?landscape');
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
   font-size: 120%;
 }
 .search {
